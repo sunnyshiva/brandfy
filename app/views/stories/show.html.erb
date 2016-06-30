@@ -1,14 +1,25 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @story.title %>
-</p>
+<div class="container main-content">
+	<div class="row">
+		<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+			<div class="storydetail-container">
+				<div class="single-story">
+					<%= image_tag @story.image_url %>
+					<p>
+					  <strong>Title:</strong>
+					  <%= @story.title %>
+					</p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @story.description %>
-</p>
+					<p>
+					  <strong>Description:</strong>
+					  <%= @story.description %>
+					</p>
 
-<%= link_to 'Edit', edit_story_path(@story) %> |
-<%= link_to 'Back', stories_path %>
+					<%= link_to 'Edit', edit_story_path(@story) %> |
+					<%= link_to 'Back', stories_path %>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

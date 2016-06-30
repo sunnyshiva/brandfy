@@ -13,7 +13,7 @@
             <div class="container">
               <div class="forma">
                 <form role="form">
-                  <%= form_for(@story) do |f| %>
+                  <%= form_for(@story, :html => { multipart: true }) do |f| %>
                     <% if @story.errors.any? %>
                       <div id="error_explanation">
                         <h2><%= pluralize(@story.errors.count, "error") %> prohibited this story from being saved:</h2>
@@ -33,7 +33,7 @@
                       <%= f.label :description %><br>
                       <%= f.text_area :description, class: 'form-control', placeholder: 'Description of your story' %>
                     </div>
-                    <div class="col-lg-4 col-lg-offset-4">
+                    <div class="col-lg-5 col-lg-offset-5">
                       <div class="actions">
                         <%= f.submit 'Create Story', class: 'btn btn-success' %>
                       </div>
@@ -43,11 +43,14 @@
               </div>
             </div>
           </div>
-          <div role="tabpanel" class="tab-pane " id="tab-1">
-            <div class="container"> <input type="file"> </div>
+          <div role="tabpanel" class="tab-pane" id="tab-1">
+            <div class="container">
+              <input type="file">
+            </div>
           </div>
-          <div role="tabpanel" class="tab-pane " id="tab-2">
-
+          <div role="tabpanel" class="tab-pane" id="tab-2">
+            <div class="container">
+            </div>
           </div>
         </div>
       </div>
