@@ -30,5 +30,5 @@ group :production do
 end
 
 gem 'carrierwave'
-gem 'aws-sdk', '< 2'
-gem 'figaro'
+gem 'fog-aws'
+gem 'figaro', '~> 1.1'
