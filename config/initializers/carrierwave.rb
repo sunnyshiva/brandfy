@@ -1,5 +1,5 @@
 CarrierWave.configure do |config|
-  config.aws_provider = 'aws-sdk'                        # required
+  require 'aws-sdk-v1'                       # required
   config.aws_credentials = {
     provider:              'AWS',                        # required
     aws_access_key_id:     ENV['aws_access_key_id'],                        # required
