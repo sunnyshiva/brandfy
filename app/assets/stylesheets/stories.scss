@@ -1,0 +1,18 @@
+// Place all the styles related to the Stories controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*================= Create story css start Here===========*/
+.story{background-color:#ffa370;color:#fff}
+.story a{text-decoration:none;color:#fff}
+.story-create{font-family:"Maven Pro",serif;font-weight:500;font-size:26px;line-height:26px;padding:15px 0 8px}
+.story-create .plus{font-size:22px}
+.story-tabs{position:relative;overflow:hidden;height:0; transition:.5s;background-image:linear-gradient(to bottom,#ffa370,#F6E9D4)}
+.story-tabs.open{height:324px;margin:0 auto}
+.story-tabs .form{background-color:#fff;box-shadow:0 0 5px 0 #555;margin-top:15px}
+.story-tabs .form .nav a{padding:15px 0;color:#999}
+.story-tabs .form .nav .active a{color:#d42977}
+.story-tabs .form .form-control{background-color:#f7f8fa;resize:none;border-style:dashed}
+.story-tabs .form textarea{height:86px}
+.story-tabs .form .form-footer{height:50px;background-color:#efedee}
+/*================= Create story css end Here===========*/

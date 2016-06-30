@@ -1,0 +1,17 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*================= Footer css start Here===========*/
+.navbar.navbar-default.navbar-static-bottom{background-color:#4f5c69}
+.navbar.navbar-default.navbar-static-bottom a{font-family:"Maven Pro",serif;font-size:12px;font-weight:400;color:#fff!important;padding:0;opacity:.74}
+.navbar.navbar-default.navbar-static-bottom .navbar-right{text-align:right;font-family:"Maven Pro",serif;font-weight:500}
+.navbar.navbar-default.navbar-static-bottom .navbar-right a{opacity:1;padding:0;font-size:26px;vertical-align:top;line-height:24px}
+.navbar.navbar-default.navbar-static-bottom .navbar-right .copyright{font-size:12px;font-weight:400;padding-top:3px;opacity:.5}
+
+.navbar-static-bottom{padding:10px 0}
+.navbar-static-bottom .navbar-nav:first-child{margin:16px 0 0}
+.navbar-static-bottom .navbar-nav li{position:relative;padding:0 11px 0 5px}
+.navbar-static-bottom .navbar-nav li:last-child:before{display:none}
+.navbar-static-bottom .navbar-nav li:before{position:absolute;right:0;top:2px;content:'/';color:#fff!important;font-family:"Maven Pro",serif;font-size:12px;font-weight:400;opacity:.74;padding:0}
+/*================= Footer css end Here===========*/
