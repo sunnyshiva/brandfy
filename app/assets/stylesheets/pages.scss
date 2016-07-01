@@ -15,3 +15,60 @@
 .navbar-static-bottom .navbar-nav li:last-child:before{display:none}
 .navbar-static-bottom .navbar-nav li:before{position:absolute;right:0;top:2px;content:'/';color:#fff!important;font-family:"Maven Pro",serif;font-size:12px;font-weight:400;opacity:.74;padding:0}
 /*================= Footer css end Here===========*/
+
+/*=========== About page css end here===========*/
+.watwhy-sec{ background:#fff; padding:50px 0;}
+.watwhy-sec img{ float:left; margin:0 20px 0 0;}
+.watwhy-sec h4{ font-family:"Maven Pro",serif; color:#828282; font-size:20px; line-height:25px; padding:0 0 2px;}
+.watwhy-sec p{ color: #6d7a83; font-family: "quicksandregular"; font-size: 14px; font-weight: 400; line-height: 18px; margin: 0 0 10px;}
+.watdo-sec{ background:#4aa7e0; padding:60px 0 80px;}
+.watdo-sec img{ margin:0 0 20px;}
+.watdo-sec h3{ font-family:"Maven Pro",serif; color:#fff; font-weight:700; font-size:20px; line-height:25px; padding:0 0 10px;}
+.watdo-sec p{ color: #fff; font-family: "quicksandregular"; font-size: 14px; font-weight: 400; line-height: 18px; margin: 0 0 10px;}
+
+.do-title{ padding-bottom:20px;}
+.do-title img{ display:inline-block; margin:0 0 10px;}
+.do-title h5{ font-family:"Maven Pro",serif; color:#333; font-size:25px; line-height:30px;}
+
+.client_sec{ background:#171f32; padding:50px 0;}
+.client_sec h4{ font-family:"Maven Pro",serif; color:#fff; font-size:25px; line-height:30px; padding:0 0 10px;}
+.client_sec p{ color: #fff; font-family: "quicksandregular"; font-size: 14px; font-weight: 400; line-height: 18px; margin: 0 0 10px;}
+.client_sec ul{ list-style:none;}
+.client_sec ul li{ display:inline-block; margin:0 3%;}
+
+.download_sec{ background:#f5f6f8; padding:50px 0;}
+.download_sec h4{ font-family:"Maven Pro",serif; color:#828282; font-size:25px; line-height:30px; padding:0 0 10px;}
+.download_sec p{ color: #333; font-family: "quicksandregular"; font-size: 14px; font-weight: 400; line-height: 18px; margin: 0 0 20px;}
+.download_sec a{ display:inline-block; padding:5px 15px; font-family:"Maven Pro",serif; color:#fff; background:#1bbc9b; border-radius:3px; font-size:18px; line-height:25px; text-transform:uppercase; margin:0 10px;}
+.download_sec a:hover{ text-decoration:none; background:#009a79;}
+
+.about_banner{ position:relative;}
+.about_description{ position:absolute; left:0; bottom:8%; width:100%;}
+.about_description h3{ font-family:"Maven Pro",serif; color:#828282; font-size:20px; line-height:25px; padding:0 0 2px;}
+.about_description p{ color: #6d7a83; font-family: "quicksandregular"; font-size: 14px; font-weight: 400; line-height: 18px; margin: 0 0 10px;}
+.about_banner h2{ position:absolute; left:0; top:15%; width:100%; text-align:center; color:#fff; font-family:"Maven Pro",serif; font-size:40px; line-height:50px; font-weight:700;}
+/*=========== About page css end here===========*/
+
+/*================= Contact page css start Here===========*/
+.contact-page{background:#fff;padding:45px 2% 16px;margin:0 0 38px}
+.contact-page small{width:90px;height:90px;color:#fff;line-height:90px;font-size:40px;background:#816fca;display:inline-block;border-radius:50%;vertical-align:top}
+.contact-page h4{font-family:'quicksandregular';font-weight:700;font-size:16px;color:#2f383d;line-height:21px;margin:21px 0 16px}
+.contact-page p{font-family:'quicksandregular';font-weight:400;font-size:14px;color:#6d7a83;line-height:20px}
+.contact-page p a{color:#6d7a83}
+.conatct-fields{margin-top:53px}
+.conatct-fields .form-group{border:2px solid #e5e2df;border-radius:20px;margin-bottom:30px}
+.conatct-fields .input-group-addon{background:none;border:none;color:#6d7a83;font-size:18px}
+.conatct-fields input[type="text"]{border:none;font-family:'quicksandregular';color:#6d7a83;font-size:14px;background:none;font-weight:400;text-transform:capitalize;box-shadow:none}
+.conatct-fields input:focus,.conatct-fields textarea:focus{border:none;box-shadow:none}
+.conatct-fields textarea{border:none;font-family:'quicksandregular';color:#6d7a83;font-size:14px;background:none;font-weight:400;line-height:18px;resize:none;height:140px}
+.conatct-fields input[type="submit"]{background:#8c7bcd;color:#fff;border:none;font-size:25px;font-family:'MyriadProRegular';line-height:42px;padding:0 40px}
+/*================= Contact page css end Here===========*/
+
+/*=========== FAQ page css start here===========*/
+.faqpage{ background:#fff; padding:20px 15px; margin:0 0 30px;}
+.faqpage .panel-body{ color: #6d7a83; font-family: "quicksandregular"; font-size: 15px; font-weight: 400; line-height: 20px;margin: 0 0 10px;}
+.faqpage .panel-body p:last-child{ margin:0;}
+.faqpage .panel-title{ color: #2f383d; font-family: "quicksandregular"; font-size: 17px; font-weight: 700; line-height: 21px; margin: 0;}
+.faqpage .panel-title a{ text-decoration:none !important;}
+/*=========== FAQ page css end here===========*/
+

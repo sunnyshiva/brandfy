@@ -1,0 +1,120 @@
+/*=================All fonts family css start Here===========*/
+@import "http://fonts.googleapis.com/css?family=Titillium+Web:600,400,700";
+@import "http://fonts.googleapis.com/css?family=Fredoka+One";
+/*@import "http://fonts.googleapis.com/css?family=Quicksand:400,700";*/
+@import "http://fonts.googleapis.com/css?family=Lato:400,700";
+@import "http://fonts.googleapis.com/css?family=Maven+Pro:400,500";
+@font-face{font-family:'MyriadProRegular';src:url(../fonts/myriadpro-regular.eot);src:url(../fonts/myriadpro-regular.eot) format("embedded-opentype"),url(../fonts/myriadpro-regular.woff) format("woff"),url(../fonts/myriadpro-regular.ttf) format("truetype"),url(../fonts/myriadpro-regular.svg#MyriadProRegular) format("svg")}
+@font-face{font-family:'Lato-Black';src:url(../fonts/Lato-Black.eot);src:url(../fonts/Lato-Black.eot?#iefix) format("embedded-opentype"),url(../fonts/Lato-Black.woff) format("woff"),url(../fonts/Lato-Black.ttf) format("truetype"),url(../fonts/Lato-Black.svg#Lato-Black) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:'icomoon';src:url(../fonts/icomoon.eot?w3en84);src:url(../fonts/icomoon.eot?#iefixw3en84) format("embedded-opentype"),url(../fonts/icomoon.woff?w3en84) format("woff"),url(../fonts/icomoon.ttf?w3en84) format("truetype"),url(../fonts/icomoon.svg?w3en84#icomoon) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:'titilliumregular';src:url(../fonts/titillium-regular-webfont.eot);src:url(../fonts/titillium-regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/titillium-regular-webfont.woff2) format("woff2"),url(../fonts/titillium-regular-webfont.woff) format("woff"),url(../fonts/titillium-regular-webfont.ttf) format("truetype"),url(../fonts/titillium-regular-webfont.svg#titilliumregular) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:'oswaldbook';src:url(../fonts/oswald-regular-webfont.eot);src:url(../fonts/oswald-regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/oswald-regular-webfont.woff) format("woff"),url(../fonts/oswald-regular-webfont.ttf) format("truetype"),url(../fonts/oswald-regular-webfont.svg#oswaldbook) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:'RobotoRegular';src:url(../fonts/Roboto-Regular-webfont.eot);src:url(../fonts/Roboto-Regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/Roboto-Regular-webfont.woff) format("woff"),url(../fonts/Roboto-Regular-webfont.ttf) format("truetype"),url(../fonts/Roboto-Regular-webfont.svg#RobotoRegular) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:'RobotoLight';src:url(../fonts/Roboto-Light-webfont.eot);src:url(../fonts/Roboto-Light-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/Roboto-Light-webfont.woff) format("woff"),url(../fonts/Roboto-Light-webfont.ttf) format("truetype"),url(../fonts/Roboto-Light-webfont.svg#RobotoLight) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:'RobotoBold';src:url(../fonts/Roboto-Bold-webfont.eot);src:url(../fonts/Roboto-Bold-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/Roboto-Bold-webfont.woff) format("woff"),url(../fonts/Roboto-Bold-webfont.ttf) format("truetype"),url(../fonts/Roboto-Bold-webfont.svg#RobotoBold) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:'RobotoMedium';src:url(../fonts/Roboto-Medium-webfont.eot);src:url(../fonts/Roboto-Medium-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/Roboto-Medium-webfont.woff) format("woff"),url(../fonts/Roboto-Medium-webfont.ttf) format("truetype"),url(../fonts/Roboto-Medium-webfont.svg#RobotoMedium) format("svg");font-weight:400;font-style:normal}
+
+@font-face {
+    font-family:'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('../fonts/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*=================All fonts family css end Here===========*/
+
+a:focus{outline:none}
+.affix { top: 0;   width: 100%; z-index:999;}
+.affix + .container-fluid { padding-top: 47px; }
+body{background-color:#f1edea}
+.main-content{position:relative;padding-bottom:50px}
+.navbar{margin-bottom:0;border:none}
+
+/*=================Header css start Here===========*/
+.navbar.navbar-default{background-color:#fff}
+.navbar .navbar-header .navbar-brand{color:#ffa370;font:600 30px "Titillium Web";line-height:48px;height:78px;padding-right:75px;letter-spacing:1px}
+.navbar .navbar-collapse{border-color:#fff}
+.navbar .navbar-collapse .navbar-right a{color:rgba(69,65,62,0.5)!important;margin:0}
+.navbar .navbar-collapse .navbar-right .icon1 a{padding-right:22px;padding-top:13px}
+.navbar .navbar-collapse .navbar-right .icon1 span.icon:before{content:"\e605";font-family:'icomoon',sans-serif;font-size:23px}
+.navbar .navbar-collapse .navbar-right .icon2 a{padding-right:23px;padding-top:14px}
+.navbar .navbar-collapse .navbar-right .icon2 span.icon:before{content:"\e604";font-family:'icomoon',sans-serif;font-size:23px}
+.navbar .navbar-collapse .navbar-right .icon3 a{padding-top:14px;padding-bottom:16px}
+.navbar .navbar-collapse .navbar-right .icon3 span.icon:before{content:"\e607";font-family:'icomoon',sans-serif;font-size:31px}
+.navbar .navbar-collapse .navbar-right .icon3 span.notification{right:11px}
+.navbar .navbar-collapse .navbar-right .icon4 a{padding-top:11px;padding-bottom:19px}
+.navbar .navbar-collapse .navbar-right .icon4 span.icon:before{content:"\e606";font-family:'icomoon',sans-serif;font-size:28px}
+.navbar .navbar-collapse .navbar-left .dropdown-menu{width:100%;background:url(../images/gradient-purple.png) repeat-x 0 0 #a593e2;border:none;border-radius:0;padding:0;text-align:center}
+.navbar .navbar-collapse .navbar-left .dropdown-menu li{display:inline-block;vertical-align:top}
+.navbar-left .dropdown-menu li{padding:20px 18px 0}
+.navbar-left .dropdown-menu li a{position:relative;padding:0 18px 38px!important}
+.navbar-left .dropdown-menu li:hover a:before{position:absolute;content:'';left:50%;margin:0 0 0 -12px;bottom:-2px;height:22px;width:28px;background:url(../images/dropdown-arrow.png) no-repeat 0 0;z-index:9}
+.navbar-left .dropdown-menu li .categoryTabs a:before{display:none!important}
+.navbar-left .dropdown-menu li a span{display:block;color:#fff;text-transform:uppercase;margin:10px 0 0;font-size:16px;line-height:21px}
+.navbar-left .dropdown-menu li a:hover{text-decoration:none}
+.navbar .navbar-collapse .navbar-left .dropdown-menu li a{height:auto;background:none}
+.navbar .navbar-collapse .navbar-left .dropdown-menu li a img{ max-height:90px;}
+.navbar-left .dropdown-menu li:hover a{background:none!important}
+.navbar .navbar-collapse .navbar-left li a{font-family:"Fredoka One",serif;font-size:14px;font-weight:400;letter-spacing:-.4px;color:#45413e;padding:0 18px;display:inline-block;vertical-align:top}
+.navbar-collapse .navbar-left li .bell{color:#828283!important;background:none!important;font-size:20px!important;padding:29px 21px!important;position:relative}
+.navbar-collapse .navbar-left li .bell span{height:18px;width:18px;border-radius:18px;border:1px solid #9889d4;color:#9889d4;font-weight:400;font-size:10px;line-height:15px;position:absolute;top:18px;right:12px;text-align:center}
+.navbar .navbar-collapse .navbar-left li a .caret{margin-left:4px;vertical-align:middle;border-top:6px solid;border-right:5px solid transparent;border-left:5px solid transparent}
+.navbar .navbar-collapse .navbar-left li:hover > a,.navbar .navbar-collapse .navbar-left li.active > a{background-color:#816fca;color:#fff}
+.navbar .navbar-collapse li{position:initial}
+.navbar .navbar-collapse li a.category-icon{line-height:78px;height:78px}
+.navbar .navbar-collapse li a.category-icon span{ display:none;}
+.navbar .navbar-collapse li .notification{position:absolute;border:2px #816FCA solid;border-radius:50%;color:#816FCA;height:18px;width:18px;font:700 13px / 14px Quicksand;text-align:center;top:17px;right:7px}
+.navbar .navbar-collapse li .icon3{margin-bottom:-8px}
+.navbar .navbar-collapse li .icon3 .notification{right:11px}
+/*=================Header css end Here===========*/
+
+
+/*=================Header Category Dropdown css start Here===========*/
+.categoryTabs{padding:65px 0;position:absolute;top:100%;left:0;width:100%;background:#7578d7;border-bottom:2px solid #fdfcfe;border-top:2px solid #fdfcfe;display:none}
+.navbar-left .dropdown-menu li:hover .categoryTabs{display:block}
+.category-icon i{font-size:25px}
+.category-icon b{position:absolute;bottom:15px;left:22px}
+.right-header{margin:25px 0 0}
+.categoryTabs .tabbox .care-list{display:inline-block;vertical-align:middle}
+.categoryTabs .tabbox .care-list li{margin:0!important;padding:0}
+
+.categoryTabs .tabbox .care-list li a{padding:0 18px!important;transition:.5s; font-size:0;}
+.categoryTabs .tabbox .care-list li a:hover{margin:-10px 0 0}
+.categoryTabs .tabbox .prev-btn,.categoryTabs .tabbox .next-btn{display:inline-block;vertical-align:middle;padding:0!important}
+
+.right-header .searchbox{ display:inline-block; position:relative; height:32px; overflow:hidden;  vertical-align:top;}
+.right-header .searchbox{ width:240px;}
+.right-header .searchbox:hover input{ right:32px;}
+.searchbox input:focus{ box-shadow:none;}
+.searchbox input{ height:30px; top:0; position:absolute; right:-200px; transition:0.3s ease; box-shadow:none;  border-radius:0; width:200px; border:1px solid #ddd; border-right:0; font-family:'MyriadProRegular'}
+.right-header .search{font-size:16px; z-index:9; position:relative; line-height:30px; vertical-align:top; padding:0 7px 0 10px; float:right; color:#a2a09e}
+.right-header .searchbox:hover .search{  background:#7578d7; color:#fff;}
+
+.right-header .login-btn, .right-header .signup-btn{color:#fff;background:#7578d7;display:inline-block;margin:0 0 0 10px;vertical-align:top;font-size:14px;line-height:18px;padding:5px 20px;border-radius:4px;font-family: 'quicksandregular';font-weight:700}
+.right-header button{border:none;color:#828283;font-size:20px}
+.right-header .dropdown-toggle{font-size:28px;line-height:28px;color:#828283; padding:0 0 29px 10px;}
+.right-header .dropdown-menu{border-radius:0;right:100px;border:none;box-shadow:none;margin:-3px 0 0}
+.right-header .dropdown-menu ul{list-style:none;font-size:14px;line-height:20px}
+.right-header .dropdown-menu ul li a{color:#828283;font-family:'quicksandregular';padding:8px 15px;text-align:right;float:none;display:block;font-weight:400}
+.right-header .dropdown-menu ul li a:hover{color:#7578d7;text-decoration:none}
+.right-header .hover-menu{ display:inline-block; vertical-align:middle; position:relative}
+.right-header .hover-menu:hover .dropdown-menu{ display:block; left:auto; right:0; top:57px;}
+/*=================Header Category Dropdown css end Here===========*/
+
+/*================= Footer css start Here===========*/
+.navbar.navbar-default.navbar-static-bottom{background-color:#4f5c69}
+.navbar.navbar-default.navbar-static-bottom a{font-family:"Maven Pro",serif;font-size:12px;font-weight:400;color:#fff!important;padding:0;opacity:.74}
+.navbar.navbar-default.navbar-static-bottom .navbar-right{text-align:right;font-family:"Maven Pro",serif;font-weight:500}
+.navbar.navbar-default.navbar-static-bottom .navbar-right a{opacity:1;padding:0;font-size:26px;vertical-align:top;line-height:24px}
+.navbar.navbar-default.navbar-static-bottom .navbar-right .copyright{font-size:12px;font-weight:400;padding-top:3px;opacity:.5}
+
+.navbar-static-bottom{padding:10px 0}
+.navbar-static-bottom .navbar-nav:first-child{margin:16px 0 0}
+.navbar-static-bottom .navbar-nav li{position:relative;padding:0 11px 0 5px}
+.navbar-static-bottom .navbar-nav li:last-child:before{display:none}
+.navbar-static-bottom .navbar-nav li:before{position:absolute;right:0;top:2px;content:'/';color:#fff!important;font-family:"Maven Pro",serif;font-size:12px;font-weight:400;opacity:.74;padding:0}
+/*================= Footer css end Here===========*/

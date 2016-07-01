@@ -8,9 +8,11 @@
 </head>
 <body>
 	<%= render 'shared/navbar' %>
-
-<%= yield %>
-	<%= render 'shared/footer' %>
-
+	<div class="container-fluid">
+		<p class="notice"><%= notice %></p>
+    	<p class="alert"><%= alert %></p>
+		<%= yield %>
+		<%= render 'shared/footer' %>
+	</div>
 </body>
 </html>
